@@ -44,6 +44,7 @@ p{
 .card{
     color: #fff;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 20px;
 }
@@ -61,6 +62,7 @@ p{
 .card2{
     color: #fff;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 17px;
 }
@@ -90,4 +92,18 @@ a{
 }
 a:hover{
     color: aqua;
+}
+/*--Phone--*/
+@media(max-width: 540px){
+ .card_box{
+   width: 90%;
+   margin: 5px;
+ }
+ .card_box2{
+   width: 90%;
+   margin: 5px;
+ }
+ h1{
+     font-size: 45px;
+ }
 }
