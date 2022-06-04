@@ -2,7 +2,7 @@ html{
     height: 100%;
 }
 body{
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(background.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(background.jpg);
     background-size: cover; 
     background-repeat: no-repeat;
     background-position:center;
@@ -97,13 +97,15 @@ a:hover{
 @media(max-width: 540px){
  .card_box{
    width: 90%;
-   margin: 5px;
+   margin: 10px;
+   border: 3px solid #fff;
  }
  .card_box2{
    width: 90%;
-   margin: 5px;
+   margin: 10px;
+   border: 3px solid #fff;
  }
  h1{
-     font-size: 45px;
+     font-size: 40px;
  }
 }
